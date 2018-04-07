@@ -1,2 +1,2 @@
-# Game-Of-Life-OpenGL
-Implementation of Conway's Game Of Life in C++
+# Artemis
+A brand new 2D Vector graphics library specially built for gamers!
