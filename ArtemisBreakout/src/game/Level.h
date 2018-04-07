@@ -25,7 +25,7 @@
 
 #include <glm/gtc/matrix_transform.hpp>
 
-#define LEVEL_PATH "./tests/levels/"
+#define LEVEL_PATH "/levels/"
 
 namespace ArtemisBreakout
 {
@@ -35,7 +35,7 @@ private:
 	ShaderProgram m_ShaderProgram;
 	ShaderProgram m_EllipseShaderProgram;
 
-	Window m_Window;
+	Window* m_Window;
 
 	// Level name
 	std::string m_Level;
@@ -66,8 +66,10 @@ private:
 
 	AnimationSequence m_AnimationSequence;
 
+	bool failed = false;
+
 public:
-	Level(std::string level, const Window& window);
+	Level(const std::string& level, Window* window, const std::string& gameDataPath);
 	~Level();
 
 	// Loads this level

@@ -71,22 +71,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>$(ProjectName)$(PlatformTarget)d</TargetName>
     <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)AtariBreakout\Dependencies\artemis\lib\$(PlatformTarget)\</OutDir>
+    <OutDir>$(SolutionDir)ArtemisBreakout\Dependencies\artemis\lib\$(PlatformTarget)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetName>$(ProjectName)$(PlatformTarget)</TargetName>
     <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)GameOfLife\Dependencies\artemis\lib\$(PlatformTarget)\</OutDir>
+    <OutDir>$(SolutionDir)ArtemisBreakout\Dependencies\artemis\lib\$(PlatformTarget)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>$(ProjectName)$(PlatformTarget)d</TargetName>
     <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)AtariBreakout\Dependencies\artemis\lib\$(PlatformTarget)\</OutDir>
+    <OutDir>$(SolutionDir)ArtemisBreakout\Dependencies\artemis\lib\$(PlatformTarget)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>$(ProjectName)$(PlatformTarget)</TargetName>
     <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
-    <OutDir>$(SolutionDir)AtariBreakout\Dependencies\artemis\lib\$(PlatformTarget)\</OutDir>
+    <OutDir>$(SolutionDir)ArtemisBreakout\Dependencies\artemis\lib\$(PlatformTarget)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

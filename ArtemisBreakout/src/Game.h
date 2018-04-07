@@ -1,5 +1,7 @@
 #pragma once
 
+#include <string>
+
 #include <GL/glew.h>
 
 #include "game/Level.h"
@@ -9,10 +11,11 @@
 
 namespace ArtemisBreakout
 {
-
 class Game
 {
 private:
+	static Game* instance;
+
 	float m_DeltaTime;
 
 	size_t m_Width;
@@ -30,20 +33,26 @@ private:
 	const int TOP;
 	const int BOTTOM;
 
-	AnimationSequence _seq;
-	AnimationSequence _seq2;
+	std::string m_GameDataPath;
 
 public:
 	Game(Window* window);
 
+	static Game* i()
+	{
+		return instance;
+	}
+
 	void Update();
 	void Render();
 
-	void LoadLevel(Level* level);
+	bool LoadLevel(Level* level);
 	void UnloadLevel();
 
 	inline void Pause() { m_Paused = true; };
 	inline void Play()  { m_Paused = false; };
+
+	inline std::string GameDataPath() const { return this->m_GameDataPath; }
 
 	~Game();
 };

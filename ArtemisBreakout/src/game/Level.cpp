@@ -3,7 +3,7 @@
 namespace ArtemisBreakout
 {
 
-Level::Level(std::string level, const Window& window) :
+Level::Level(const std::string& level, Window* window, const std::string& gameDataPath) :
 	m_Level( level ),
 	m_Window(window),
 	m_Platform(nullptr),
@@ -12,7 +12,7 @@ Level::Level(std::string level, const Window& window) :
 	BALL_VELOCITY(100.0f, 300.0f, 0.0f),
 	m_BlocksDestroyed(0)
 {
-	std::string levelPath = std::string( LEVEL_PATH ) + level;
+	std::string levelPath = gameDataPath + std::string( LEVEL_PATH ) + level;
 
 	FILE* fp;
 	fopen_s(&fp, levelPath.c_str(), "rb");
@@ -20,6 +20,8 @@ Level::Level(std::string level, const Window& window) :
 	// Failed to read file
 	if (fp == NULL)
 	{
+		failed = true;
+
 		std::cout << "Level " << level << " could not be opened for reading." << std::endl;
 		return;
 	}
@@ -35,8 +37,8 @@ Level::Level(std::string level, const Window& window) :
 	this->m_Data.assign(data.begin(), data.end());
 
 	// Shaders
-	m_ShaderProgram.AttachShader(Shader("Shaders/VertexShader.glsl", Shader::ShaderType::Vertex));
-	m_ShaderProgram.AttachShader(Shader("Shaders/FragmentShader.glsl", Shader::ShaderType::Fragment));
+	m_ShaderProgram.AttachShader(Shader(gameDataPath + "/shaders/VertexShader.glsl", Shader::ShaderType::Vertex));
+	m_ShaderProgram.AttachShader(Shader(gameDataPath + "/shaders/FragmentShader.glsl", Shader::ShaderType::Fragment));
 	m_ShaderProgram.Link();
 	m_ShaderProgram.Use();
 
@@ -44,11 +46,11 @@ Level::Level(std::string level, const Window& window) :
 	m_ShaderProgram.SetUniform2f("input_position", 0.0f, 0.0f);
 
 	// Set the Camera Projection Matrix
-	glm::mat4 prMatrix = glm::ortho(-window.Width() / 2.0f, window.Width() / 2.0f, -window.Height() / 2.0f, window.Height() / 2.0f, -1.0f, 1.0f);
+	glm::mat4 prMatrix = glm::ortho(-window->Width() / 2.0f, window->Width() / 2.0f, -window->Height() / 2.0f, window->Height() / 2.0f, -1.0f, 1.0f);
 	m_ShaderProgram.SetMatrix4f("pr_matrix", &prMatrix[0][0]);
 
-	m_EllipseShaderProgram.AttachShader(Shader("Shaders/EllipseVertexShader.glsl", Shader::ShaderType::Vertex));
-	m_EllipseShaderProgram.AttachShader(Shader("Shaders/EllipseFragmentShader.glsl", Shader::ShaderType::Fragment));
+	m_EllipseShaderProgram.AttachShader(Shader(gameDataPath + "/shaders/EllipseVertexShader.glsl", Shader::ShaderType::Vertex));
+	m_EllipseShaderProgram.AttachShader(Shader(gameDataPath + "/shaders/EllipseFragmentShader.glsl", Shader::ShaderType::Fragment));
 	m_EllipseShaderProgram.Link();
 	m_EllipseShaderProgram.Use();
 
@@ -83,6 +85,11 @@ Level::Level(std::string level, const Window& window) :
 
 bool Level::Load()
 {
+	if (failed)
+	{
+		return false;
+	}
+
 	m_Parser.setSyntax(m_Data);
 	if (m_Parser.Parse() == false)
 	{
@@ -140,7 +147,7 @@ bool Level::Load()
 				m_Ball = new BallObject(
 					glm::vec3(ellipse->x, ellipse->y, 0.0f),
 					ellipse->color,
-					glm::vec2(m_Window.Width(), m_Window.Height()),
+					glm::vec2(m_Window->Width(), m_Window->Height()),
 					ellipse->rx,
 					BALL_VELOCITY
 				);
@@ -151,7 +158,7 @@ bool Level::Load()
 				m_BallB = new BallObject(
 					glm::vec3(ellipse->x, ellipse->y, 0.0f),
 					ellipse->color,
-					glm::vec2(m_Window.Width(), m_Window.Height()),
+					glm::vec2(m_Window->Width(), m_Window->Height()),
 					ellipse->rx,
 					BALL_VELOCITY
 				);

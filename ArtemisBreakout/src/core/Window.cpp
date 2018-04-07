@@ -10,6 +10,16 @@ Window::Window(int width, int height, std::string title) :
 	m_StartTime(std::chrono::high_resolution_clock::now()),
 	m_FPS(0)
 {
+	m_ExecutablePath.resize(MAX_PATH);
+
+	// Change the current path to executable path
+	if (GetModuleFileName(NULL, &m_ExecutablePath[0], MAX_PATH)) {
+		auto found = m_ExecutablePath.find_last_of('\\');
+		m_ExecutablePath = m_ExecutablePath.substr(0, found);
+
+		_chdir(m_ExecutablePath.c_str());
+	}
+
 	if (!glfwInit())
 	{
 		LOG_ERROR("Failed to initialize the required dependencies.");
@@ -231,6 +241,11 @@ bool Window::IsLeftStickMoved(uint8_t axis)
 	}
 
 	return false;
+}
+
+void Window::Close()
+{
+	glfwDestroyWindow(m_Window);
 }
 
 Window::~Window()

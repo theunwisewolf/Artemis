@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Artemis", "Artemis\Artemis.vcxproj", "{8C67D830-E7B8-4334-8578-9EF79C9708D5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtariBreakout", "AtariBreakout\AtariBreakout.vcxproj", "{30639CB1-7C2A-4A72-AFB8-E4A060B623BF}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArtemisBreakout", "ArtemisBreakout\ArtemisBreakout.vcxproj", "{30639CB1-7C2A-4A72-AFB8-E4A060B623BF}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8C67D830-E7B8-4334-8578-9EF79C9708D5} = {8C67D830-E7B8-4334-8578-9EF79C9708D5}
 	EndProjectSection

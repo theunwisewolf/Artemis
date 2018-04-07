@@ -4,6 +4,12 @@
 #include <chrono>
 #include <thread>
 
+#define NOGDI
+#define WIN32_MEAN_AND_LEAN
+
+#include <direct.h>
+#include <Windows.h>
+
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
@@ -64,6 +70,8 @@ private:
 	int mouseX;
 	int mouseY;
 
+	std::string m_ExecutablePath;
+
 public:
 	Window(int width, int height, std::string title);
 
@@ -75,9 +83,10 @@ public:
 
 	void Title(const std::string& title) const;
 
-	int Height()				const { return m_Height; }
-	int Width()					const { return m_Width; }
-	std::string Title()			const { return m_Title; }
+	int Height()				 const { return m_Height; }
+	int Width()					 const { return m_Width; }
+	std::string Title()			 const { return m_Title; }
+	std::string ExecutablePath() const { return m_ExecutablePath; }
 
 	bool IsKeyPressed(uint16_t keycode);
 	bool IsKeyDown(uint16_t keycode);
@@ -86,6 +95,7 @@ public:
 	bool IsLeftStickMoved(uint8_t axis);
 
 	void Update();
+	void Close();
 
 	bool ShouldClose() const;
 

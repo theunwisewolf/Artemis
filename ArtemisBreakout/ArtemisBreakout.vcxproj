@@ -190,6 +190,7 @@
     <ClInclude Include="src\graphics\AnimationFrame.h" />
     <ClInclude Include="src\graphics\AnimationSequence.h" />
     <ClInclude Include="src\utils\Math.h" />
+    <ClInclude Include="tests\AnimationsTest.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dependencies\glm\detail\glm.cpp" />
@@ -331,7 +332,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{30639CB1-7C2A-4A72-AFB8-E4A060B623BF}</ProjectGuid>
-    <RootNamespace>AtariBreakout</RootNamespace>
+    <RootNamespace>ArtemisBreakout</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -380,20 +381,22 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
-    <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\</IntDir>
+    <TargetName>$(ProjectName)d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
-    <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
-    <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\</IntDir>
+    <TargetName>$(ProjectName)d</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)bin\$(Configuration)\$(PlatformTarget)\</OutDir>
-    <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)bin\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediates\$(ProjectName)\$(Platform)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
