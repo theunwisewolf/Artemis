@@ -33,6 +33,7 @@ Level::Level(const std::string& level, Window* window, const std::string& gameDa
 	std::vector<char> data(size);
 
 	std::fread(&data[0], sizeof(char), size, fp);
+	std::fclose(fp);
 
 	this->m_Data.assign(data.begin(), data.end());
 
