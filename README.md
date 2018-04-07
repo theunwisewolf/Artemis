@@ -1,4 +1,7 @@
 # Artemis
+
+![ArtemisBreakout built using Artemis](https://i.imgur.com/3jBQIMu.png)
+
 Artemis is a 2D vector graphics library that I & a few friends built. It is a step in modern graphics development to ease the difficulties faced by all kinds of game programmers. It is similar to SVG except that I have chosen simplicty over complexity. It involves some very basic renderable primitives inspired from Processing(p5.js). 
 
 It allows you to separate out your game logic from your rendering part. You write your renderable descriptions in a separate file and then import it using Artemis' parser into your game and render them. This has two advantages:
@@ -83,3 +86,10 @@ That's it.
 
 ## Tags
 I will update this section soon. Currently working on some additional attributes for some tags which I feel are really necessary. Plus, I am lazy ;)
+
+## Contributors
+- **Niks** / *Parser* / *Level Designs for Artemis Breakout*
+- **Vats** / *Artemis Documentation*
+- **AnCS** / *Level Designs for Artemis Breakout*
+
+**Contribute and help make Artemis better!**
