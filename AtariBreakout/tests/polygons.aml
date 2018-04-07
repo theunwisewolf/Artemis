@@ -1,0 +1,8 @@
+<root>
+    <figure>
+      <polygon 
+          fillcolor="#00ff00"
+          path="25,50 50,25 50,-25 25,-50 -25,-50 -50,-25 -50,25 -25,50" 
+      </polygon>
+    </figure>
+</root>

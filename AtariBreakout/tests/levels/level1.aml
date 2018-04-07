@@ -1,0 +1,84 @@
+<!-- 
+  Atari Breakouts Game
+  (c) 2018, Artemis
+-->
+<root>
+  <figure>
+    <!-- Level 1 -->
+
+    <!-- Shades Of Red -->
+    <rect fillcolor="#c0392b" width="100" height="70" x="-600" y="310" powerup="expand"></rect>
+    <rect fillcolor="#e74c3c" width="70" height="70"  x="-510" y="310"></rect>
+    <rect fillcolor="#c53324" width="100" height="70" x="-420" y="310"></rect>
+    <rect fillcolor="#ff0000" width="70" height="70" x="-330" y="310"></rect>
+    <rect fillcolor="#d42614" width="100" height="70" x="-240" y="310"></rect>
+    <rect fillcolor="#e41f0b" width="70" height="70" x="-150" y="310"></rect>
+    <rect fillcolor="#c72c1c" width="100" height="70" x="-60" y="310"></rect>
+    <rect fillcolor="#c0392b" width="70" height="70" x="30" y="310"></rect>
+    <rect fillcolor="#e74c3c" width="100" height="70" x="120" y="310"></rect>
+    <rect fillcolor="#c53324" width="70" height="70" x="210" y="310"></rect>
+    <rect fillcolor="#ff0000" width="100" height="70" x="300" y="310"></rect>
+    <rect fillcolor="#d42614" width="70" height="70" x="390" y="310"></rect>
+    <rect fillcolor="#e41f0b" width="100" height="70" x="480" y="310"></rect>
+    <rect fillcolor="#c72c1c" width="70" height="70" x="570" y="310"></rect>
+
+    <!--Shades Of Black -->
+    <rect fillcolor="#111111" width="100" height="70" x="-600" y="230"></rect>
+    <rect fillcolor="#222222" width="70" height="70" x="-510" y="230"></rect>
+    <rect fillcolor="#333333" width="100" height="70" x="-420" y="230"></rect>
+    <rect fillcolor="#777777" width="70" height="70" x="-330" y="230"></rect>
+    <rect fillcolor="#555555" width="100" height="70" x="-240" y="230"></rect>
+    <rect fillcolor="#666666" width="70" height="70" x="-150" y="230"></rect>
+    <rect fillcolor="#444444" width="100" height="70" x="-60" y="230"></rect>
+    <rect fillcolor="#111111" width="70" height="70" x="30" y="230"></rect>
+    <rect fillcolor="#222222" width="100" height="70" x="120" y="230"></rect>
+    <rect fillcolor="#333333" width="70" height="70" x="210" y="230"></rect>
+    <rect fillcolor="#777777" width="100" height="70" x="300" y="230"></rect>
+    <rect fillcolor="#555555" width="70" height="70" x="390" y="230"></rect>
+    <rect fillcolor="#666666" width="100" height="70" x="480" y="230"></rect>
+    <rect fillcolor="#444444" width="70" height="70" x="570" y="230"></rect>
+
+    <!--Shades Of Yellow -->
+    <rect fillcolor="#FFFFCC" width="100" height="70" x="-600" y="150"></rect>
+    <rect fillcolor="#FFFF99" width="70" height="70" x="-510" y="150"></rect>
+    <rect fillcolor="#FFFF00" width="100" height="70" x="-420" y="150"></rect>
+    <rect fillcolor="#FFFF66" width="70" height="70" x="-330" y="150"></rect>
+    <rect fillcolor="#FFFF33" width="100" height="70" x="-240" y="150"></rect>
+    <rect fillcolor="#FFFFCC" width="70" height="70" x="-150" y="150"></rect>
+    <rect fillcolor="#FFFF99" width="100" height="70" x="-60" y="150"></rect>
+    <rect fillcolor="#FFFF00" width="70" height="70" x="30" y="150"></rect>
+    <rect fillcolor="#FFFF66" width="100" height="70" x="120" y="150"></rect>
+    <rect fillcolor="#FFFF33" width="70" height="70" x="210" y="150"></rect>
+    <rect fillcolor="#FFFFCC" width="100" height="70" x="300" y="150"></rect>
+    <rect fillcolor="#FFFF99" width="70" height="70" x="390" y="150"></rect>
+    <rect fillcolor="#FFFF00" width="100" height="70" x="480" y="150"></rect>
+    <rect fillcolor="#FFFF66" width="70" height="70" x="570" y="150"></rect>
+
+    <!--Shades Of Green -->
+    <rect fillcolor="#7CFC00" width="100" height="70" x="-600" y="70"></rect>
+    <rect fillcolor="#32CD32" width="70" height="70" x="-510" y="70"></rect>
+    <rect fillcolor="#00FF00" width="100" height="70" x="-420" y="70"></rect>
+    <rect fillcolor="#228B22" width="70" height="70" x="-330" y="70"></rect>
+    <rect fillcolor="#006400" width="100" height="70" x="-240" y="70"></rect>
+    <rect fillcolor="#00FF7F" width="70" height="70" x="-150" y="70"></rect>
+    <rect fillcolor="#00FA9A" width="100" height="70" x="-60" y="70"></rect>
+    <rect fillcolor="#7CFC00" width="70" height="70" x="30" y="70"></rect>
+    <rect fillcolor="#32CD32" width="100" height="70" x="120" y="70"></rect>
+    <rect fillcolor="#00FF00" width="70" height="70" x="210" y="70"></rect>
+    <rect fillcolor="#228B22" width="100" height="70" x="300" y="70"></rect>
+    <rect fillcolor="#006400" width="70" height="70" x="390" y="70"></rect>
+    <rect fillcolor="#00FF7F" width="100" height="70" x="480" y="70"></rect>
+    <rect fillcolor="#00FA9A" width="70" height="70" x="570" y="70"></rect>
+
+  </figure>
+  
+  <!-- Platform -->
+  <figure>
+    <ellipse id="ballb" fillcolor="#000000" rx="0" ry="0" x="0" y="-300"></ellipse>
+    <ellipse id="ball" fillcolor="#87ceeb" rx="10" ry="10" x="0" y="-310"></ellipse>
+
+    <!--<rect id="ball" fillcolor="#3498db" width="20" height="20"  x="0" y="-306"></rect>-->
+    <rect id="platform" fillcolor="#2980b9" width="100" height="10" x="0" y="-326"></rect>
+  </figure>
+  
+</root>

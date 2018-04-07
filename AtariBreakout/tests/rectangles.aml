@@ -1,0 +1,40 @@
+<!-- 
+  Artemis Demo
+  (c) 2018, Artemis
+-->
+<root>
+  <figure>
+    <!-- Buttons -->
+    
+    <!-- Shades Of Blue -->
+    <rect fillcolor="#1E8BC3" width="150" height="150" x="-400" y="150"></rect>
+    <rect fillcolor="#3A539B" width="150" height="150" x="-250" y="150"></rect>
+    <rect fillcolor="#34495E" width="150" height="150" x="-100" y="150"></rect>
+    <rect fillcolor="#67809F" width="150" height="150" x="50" y="150"></rect>
+    <rect fillcolor="#2574A9" width="150" height="150" x="200" y="150"></rect>
+    <rect fillcolor="#4B77BE" width="150" height="150" x="350" y="150"></rect>
+    <rect fillcolor="#5C97BF" width="150" height="150" x="500" y="150"></rect>
+      
+    <!-- Shades Of Black -->
+    <rect fillcolor="#111111" width="150" height="150" x="-400" y="-150"></rect>
+    <rect fillcolor="#222222" width="150" height="150" x="-250" y="-150"></rect>
+    <rect fillcolor="#333333" width="150" height="150" x="-100" y="-150"></rect>
+    <rect fillcolor="#444444" width="150" height="150" x="50" y="-150"></rect>
+    <rect fillcolor="#555555" width="150" height="150" x="200" y="-150"></rect>
+    <rect fillcolor="#666666" width="150" height="150" x="350" y="-150"></rect>
+    <rect fillcolor="#777777" width="150" height="150" x="500" y="-150"></rect>
+
+     <!-- Shades Of Red -->
+    <rect fillcolor="#c0392b" width="150" height="150" x="-400" y="0"></rect>
+    <rect fillcolor="#e74c3c" width="150" height="150" x="-250" y="0"></rect>
+    <rect fillcolor="#c53324" width="150" height="150" x="-100" y="0"></rect>
+    <rect fillcolor="#c72c1c" width="150" height="150" x="50" y="0"></rect>
+    <rect fillcolor="#d42614" width="150" height="150" x="200" y="0"></rect>
+    <rect fillcolor="#e41f0b" width="150" height="150" x="350" y="0"></rect>
+    <rect fillcolor="#ff0000" width="150" height="150" x="500" y="0"></rect>
+      
+    <!--<rect fillcolor="#333" width="150" height="150" x="-50" y="0"></rect>
+    <rect fillcolor="#333" width="100" height="50" x="0" y="-80"></rect>
+    <rect fillcolor="#222" width="100" height="50" x="0" y="-130"></rect>-->
+  </figure>
+</root>

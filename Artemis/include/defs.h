@@ -1,0 +1,27 @@
+#pragma once
+
+#define SYNTAX_ERROR				1
+#define MISSING_CLOSING_TAG			2
+#define MISSING_OPENING_TAG			4
+#define INVALID_TAG_NAME			8
+#define INVALID_ATTRIBUTE_NAME		16
+#define INVALID_ATTRIBUTE_VALUE		32
+#define MISSING_TAG_NAME			64
+#define MISSING_ATTRIBUTE			128
+
+// Constraints
+#define MAX_ATTRIBUTE_NAME_LENGTH	64
+
+enum class Tags {
+	RECT,
+	TRIANGLE,
+	ELLIPSE,
+	POLYGON,
+	LINE,
+	POINT,
+	SQUARE,
+
+	// Non-drawable tags
+	FIGURE,
+	ROOT
+};
