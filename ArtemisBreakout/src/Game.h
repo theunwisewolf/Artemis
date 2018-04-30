@@ -1,6 +1,7 @@
 #pragma once
 
 #include <string>
+#include <vector>
 
 #include <GL/glew.h>
 
@@ -35,6 +36,8 @@ private:
 
 	std::string m_GameDataPath;
 
+	int levelIndex = -1;
+
 public:
 	Game(Window* window);
 
@@ -45,6 +48,10 @@ public:
 
 	void Update();
 	void Render();
+	
+	std::vector<ArtemisBreakout::Level*> levels;
+
+	void AddLevels(std::vector<ArtemisBreakout::Level*> levels) { this->levels = levels; }
 
 	bool LoadLevel(Level* level);
 	void UnloadLevel();

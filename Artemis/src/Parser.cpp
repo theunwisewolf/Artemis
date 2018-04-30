@@ -626,4 +626,17 @@ Tag* Parser::InitTag(std::string name)
 	return (Tag*)primitive;
 }
 
+void Parser::clean()
+{
+	int size = m_Tags.size();
+
+	for (int i = 0; i < size; i++)
+	{
+		m_Tags.pop();
+	}
+
+	this->m_Primitives.clear();
+	this->m_Figures.clear();
+}
+
 }

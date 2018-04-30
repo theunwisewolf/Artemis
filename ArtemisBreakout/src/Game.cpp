@@ -42,10 +42,13 @@ void Game::Update()
 	{
 		if ((m_CurrentLevel->Platform()->Position().x - m_CurrentLevel->Platform()->Width() / 2) > LEFT)
 		{
-			m_CurrentLevel->Platform()->SetPosition(glm::vec3(m_CurrentLevel->Platform()->Position().x - 1, m_CurrentLevel->Platform()->Position().y, 0.0f));
-			
-			if(m_CurrentLevel->Ball()->OnPlatform())
-				m_CurrentLevel->Ball()->SetPosition(glm::vec3(m_CurrentLevel->Ball()->Position().x - 1, m_CurrentLevel->Ball()->Position().y, 0.0f));
+			//m_CurrentLevel->Platform()->SetPosition(glm::vec3(m_CurrentLevel->Platform()->Position().x - 1, m_CurrentLevel->Platform()->Position().y, 0.0f));
+			m_CurrentLevel->Platform()->MoveLeft(deltaTime);
+
+			if (m_CurrentLevel->Ball()->OnPlatform())
+			{
+				m_CurrentLevel->Ball()->SetPosition(glm::vec3(m_CurrentLevel->Platform()->Position().x, m_CurrentLevel->Ball()->Position().y, 0.0f));
+			}
 		}
 	}
 
@@ -53,11 +56,46 @@ void Game::Update()
 	{
 		if ((m_CurrentLevel->Platform()->Position().x + m_CurrentLevel->Platform()->Width() / 2) < RIGHT)
 		{
-			m_CurrentLevel->Platform()->SetPosition(glm::vec3(m_CurrentLevel->Platform()->Position().x + 1, m_CurrentLevel->Platform()->Position().y, 0.0f));
-			
+			//m_CurrentLevel->Platform()->SetPosition(glm::vec3(m_CurrentLevel->Platform()->Position().x + 1, m_CurrentLevel->Platform()->Position().y, 0.0f));
+			m_CurrentLevel->Platform()->MoveRight(deltaTime);
+
 			if (m_CurrentLevel->Ball()->OnPlatform())
-				m_CurrentLevel->Ball()->SetPosition(glm::vec3(m_CurrentLevel->Ball()->Position().x + 1, m_CurrentLevel->Ball()->Position().y, 0.0f));
+			{
+				m_CurrentLevel->Ball()->SetPosition(glm::vec3(m_CurrentLevel->Platform()->Position().x, m_CurrentLevel->Ball()->Position().y, 0.0f));
+			}
 		}
+	}
+
+	// Cycling through levels
+	if (m_Window->IsKeyPressed(GLFW_KEY_1))
+	{
+		levelIndex--;
+
+		if (levelIndex < 0)
+		{
+			levelIndex = this->levels.size() - 1;
+		}
+
+		this->UnloadLevel();
+		this->LoadLevel(this->levels[levelIndex]);
+	}
+	if (m_Window->IsKeyPressed(GLFW_KEY_2))
+	{
+		levelIndex++;
+
+		if (levelIndex >= this->levels.size())
+		{
+			levelIndex = 0;
+		}
+		
+		this->UnloadLevel();
+		this->LoadLevel(this->levels[levelIndex]);
+	}
+
+	// Quit Game
+	if (m_Window->IsKeyPressed(GLFW_KEY_ESCAPE))
+	{
+		m_Window->ShouldClose(true);
 	}
 
 	if (m_Window->IsKeyDown(' ') || 
@@ -103,11 +141,24 @@ void Game::UnloadLevel()
 
 	// TODO: Fix this
 	//delete m_CurrentLevel;
+
+	m_CurrentLevel->Unload();
 	m_CurrentLevel = nullptr;
 }
 
 Game::~Game()
 {
+	for (auto level : levels)
+	{
+		if (level)
+		{
+			delete level;
+			level = nullptr;
+		}
+	}
+
+	levels.clear();
+
 	this->UnloadLevel();
 }
 

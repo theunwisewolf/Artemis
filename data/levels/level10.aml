@@ -1,0 +1,288 @@
+<!-- 
+  Atari Breakouts Game
+  (c) 2018, Artemis
+-->
+<root>
+  <figure>
+    <!-- Level 3 -->
+  //1
+	  <rect fillcolor="#ff0c0c" width="55" height="30" x="-121" y="350"></rect>
+    <rect fillcolor="#ff8e05" width="55" height="30" x="-64" y="350"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-7" y="350"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="50" y="350"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="107" y="350"></rect>
+    <rect fillcolor="#ff8e05" width="55" height="30" x="164" y="350"></rect>
+//2
+    <rect fillcolor="#ff9900" width="55" height="30" x="-235" y="318"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-178" y="318"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-121" y="318"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-64" y="318"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-7" y="318"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="50" y="318"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="107" y="318"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="164" y="318"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="221" y="318"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="278" y="318"></rect>
+//3
+    <rect fillcolor="#ff9900" width="55" height="30" x="-292" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-235" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-178" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-121" y="286"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-64" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-7" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="50" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="107" y="286"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="164" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="221" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="278" y="286"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="335" y="286"></rect>
+//4
+    <rect fillcolor="#ff9900" width="55" height="30" x="-349" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-292" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-235" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-178" y="254"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-121" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-64" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-7" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="50" y="254"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="107" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="164" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="221" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="278" y="254"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="335" y="254"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="392" y="254"></rect>
+//5
+    <rect fillcolor="#ff9900" width="55" height="30" x="-406" y="222"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-349" y="222"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-292" y="222"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-235" y="222"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-178" y="222"></rect>
+    <rect fillcolor="#b4ba09" width="55" height="30" x="-121" y="222"></rect>
+    <rect fillcolor="#ff8e05" width="55" height="30" x="-64" y="222"></rect>
+    <rect fillcolor="#b4ba09" width="55" height="30" x="-7" y="222"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="50" y="222"></rect>
+    <rect fillcolor="#b4ba09" width="55" height="30" x="107" y="222"></rect>
+    <rect fillcolor="#ff8e05" width="55" height="30" x="164" y="222"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="221" y="222"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="278" y="222"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="335" y="222"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="392" y="222"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="449" y="222"></rect>
+//6
+    <rect fillcolor="#ff9900" width="55" height="30" x="-463" y="190"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-406" y="190"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-349" y="190"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-292" y="190"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-235" y="190"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-178" y="190"></rect>
+    <rect fillcolor="#b4ba09" width="55" height="30" x="-121" y="190"></rect>
+    <rect fillcolor="#ff8e05" width="55" height="30" x="-64" y="190"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-7" y="190"></rect>
+    <rect fillcolor="#b4ba09" width="55" height="30" x="50" y="190"></rect>
+    <rect fillcolor="#b4ba09" width="55" height="30" x="107" y="190"></rect>
+    <rect fillcolor="#ff8e05" width="55" height="30" x="164" y="190"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="221" y="190"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="278" y="190"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="335" y="190"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="392" y="190"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="449" y="190"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="506" y="190"></rect>
+//7
+    <rect fillcolor="#ff9900" width="55" height="30" x="-520" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-463" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-406" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-349" y="158"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-292" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-235" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-178" y="158"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-121" y="158"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-64" y="158"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-7" y="158"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="50" y="158"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="107" y="158"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="164" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="221" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="278" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="335" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="392" y="158"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="449" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="506" y="158"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="563" y="158"></rect>
+//8
+    <rect fillcolor="#ff9900" width="55" height="30" x="-577" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-520" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-463" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-406" y="126"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-349" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-292" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-235" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-178" y="126"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-121" y="126"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-64" y="126"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-7" y="126"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="50" y="126"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="107" y="126"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="164" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="221" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="278" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="335" y="126"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="392" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="449" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="506" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="563" y="126"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="620" y="126"></rect>
+//9
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-577" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-520" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-463" y="94"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-406" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-349" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-292" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-235" y="94"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-178" y="94"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-121" y="94"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-64" y="94"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-7" y="94"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="50" y="94"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="107" y="94"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="164" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="221" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="278" y="94"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="335" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="392" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="449" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="506" y="94"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="563" y="94"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="620" y="94"></rect>
+//10
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-577" y="62"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-520" y="62"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-463" y="62"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-406" y="62"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-349" y="62"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-292" y="62"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-235" y="62"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-178" y="62"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-121" y="62"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-64" y="62"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-7" y="62"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="50" y="62"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="107" y="62"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="164" y="62"></rect>
+    <rect fillcolor="#c4710d" width="55" height="30" x="221" y="62"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="278" y="62"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="335" y="62"></rect>
+    <rect fillcolor="#ff8e05" width="55" height="30" x="392" y="62"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="449" y="62"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="506" y="62"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="563" y="62"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="620" y="62"></rect>
+//11
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-577" y="30"></rect>
+    <rect fillcolor="ff9900" width="55" height="30" x="-520" y="30"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-463" y="30"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-406" y="30"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="-349" y="30"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-292" y="30"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-235" y="30"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-178" y="30"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-121" y="30"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-64" y="30"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-7" y="30"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="50" y="30"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="107" y="30"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="164" y="30"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="221" y="30"></rect>
+    <rect fillcolor="#c4710d" width="55" height="30" x="278" y="30"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="335" y="30"></rect>
+    <rect fillcolor="#ff8e05" width="55" height="30" x="392" y="30"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="449" y="30"></rect>
+    <rect fillcolor="ff9900" width="55" height="30" x="506" y="30"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="563" y="30"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="620" y="30"></rect>
+//12    
+    <rect fillcolor="#ff9900" width="55" height="30" x="-577" y="-2"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-520" y="-2"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="-463" y="-2"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="-406" y="-2"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-349" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-292" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-235" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-178" y="-2"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-121" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-64" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-7" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="50" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="107" y="-2"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="164" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="221" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="278" y="-2"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="335" y="-2"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="392" y="-2"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="449" y="-2"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="506" y="-2"></rect>
+    <rect fillcolor="#00ff2e" width="55" height="30" x="563" y="-2"></rect>
+    <rect fillcolor="#ff0c0c" width="55" height="30" x="620" y="-2"></rect>
+//13
+    <rect fillcolor="#00ff2e" width="55" height="30" x="-577" y="-34"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="-520" y="-34"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="-463" y="-34"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-406" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-349" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-292" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-235" y="-34"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-178" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-121" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-64" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-7" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="50" y="-34"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="107" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="164" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="221" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="278" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="335" y="-34"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="392" y="-34"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="449" y="-34"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="506" y="-34"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="563" y="-34"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="620" y="-34"></rect>
+//14
+    <rect fillcolor="#00d8ff" width="55" height="30" x="-577" y="-66"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="-520" y="-66"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="-463" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-406" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-349" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-292" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-235" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-178" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-121" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="164" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="221" y="-66"></rect>
+    <rect fillcolor="#c4710d" width="55" height="30" x="278" y="-66"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="335" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="392" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="449" y="-66"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="506" y="-66"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="563" y="-66"></rect>
+    <rect fillcolor="#00d8ff" width="55" height="30" x="620" y="-66"></rect>
+//15
+    <rect fillcolor="#ff9900" width="55" height="30" x="-520" y="-98"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-463" y="-98"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="-406" y="-98"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="449" y="-98"></rect>
+    <rect fillcolor="#ff9900" width="55" height="30" x="506" y="-98"></rect>
+    <rect fillcolor="#9800ff" width="55" height="30" x="563" y="-98"></rect>
+    
+  </figure>
+  
+  <!-- Platform -->
+  <figure>
+    <!--<ellipse fillcolor="#87ceeb" r1="3" r2="3" x="-1" y="-40"></ellipse>-->
+
+    <ellipse id="ballb" fillcolor="#000000" rx="0" ry="0" x="0" y="-300"></ellipse>
+    <ellipse id="ball" fillcolor="#87ceeb" rx="20" ry="20" x="0" y="-310"></ellipse>
+    
+    <rect id="platform" fillcolor="#2980b9" width="300" height="10" x="0" y="-326"></rect>
+  </figure>
+  
+</root>

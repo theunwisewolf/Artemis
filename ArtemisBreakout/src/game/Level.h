@@ -62,6 +62,8 @@ private:
 	BallObject* m_BallB;
 
 	const glm::vec3 BALL_VELOCITY;
+	const glm::vec3 PLATFORM_VELOCITY;
+
 	size_t m_BlocksDestroyed;
 
 	AnimationSequence m_AnimationSequence;
@@ -74,6 +76,7 @@ public:
 
 	// Loads this level
 	bool Load();
+	void Unload();
 
 	// Returns a Primitive
 	GameObject* GetObject(std::string name);

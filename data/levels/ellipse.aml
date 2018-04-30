@@ -1,8 +1,0 @@
-<root>
-	<figure>
-		<ellipse id="ballb" fillcolor="#87ceeb" rx="200" ry="200" x="-100" y="0"></ellipse>
-    <ellipse id="ball" fillcolor="#e74c3c" rx="200" ry="200" x="100" y="0"></ellipse>
-		<!--<rect id="platform" fillcolor="#e74c3c" width="200" height="200" x="200" y="0"></rect>-->
-		<!--<ellipse id="ball" fillcolor="#87ceeb" rx="0.5" ry="0.5" x="0" y="0"></ellipse>-->
-	</figure>
-</root>

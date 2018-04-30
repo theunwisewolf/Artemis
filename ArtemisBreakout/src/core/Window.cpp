@@ -26,6 +26,15 @@ Window::Window(int width, int height, std::string title) :
 		return;
 	}
 
+	const GLFWvidmode *videoMode = glfwGetVideoMode(glfwGetPrimaryMonitor());
+	width = videoMode->width;
+	height = videoMode->height;
+
+	glfwWindowHint(GLFW_RED_BITS, videoMode->redBits);
+	glfwWindowHint(GLFW_GREEN_BITS, videoMode->greenBits);
+	glfwWindowHint(GLFW_BLUE_BITS, videoMode->blueBits);
+	glfwWindowHint(GLFW_REFRESH_RATE, videoMode->refreshRate);
+
 	m_Window = glfwCreateWindow(width, height, title.c_str(), nullptr, nullptr);
 
 	if (!m_Window)
@@ -48,7 +57,6 @@ Window::Window(int width, int height, std::string title) :
 	glfwSetJoystickCallback(&Window::joystickConfigCallback);
 
 	// Center the window on the screen
-	const GLFWvidmode *videoMode = glfwGetVideoMode(glfwGetPrimaryMonitor());
 	glfwSetWindowPos(m_Window, videoMode->width / 2 - width / 2, videoMode->height / 2 - height / 2);
 
 	// Initialize the opengl context
@@ -246,11 +254,16 @@ bool Window::IsLeftStickMoved(uint8_t axis)
 void Window::Close()
 {
 	glfwDestroyWindow(m_Window);
+	m_Window = nullptr;
 }
 
 Window::~Window()
 {
-	glfwDestroyWindow(m_Window);
+	if (m_Window)
+	{
+		glfwDestroyWindow(m_Window);
+		m_Window = nullptr;
+	}
+
 	glfwTerminate();
-	m_Window = nullptr;
 }

@@ -1,0 +1,205 @@
+<!-- 
+  Atari Breakouts Game
+  (c) 2018, Artemis
+-->
+<root>
+  <figure>
+
+ <!-- First box -->
+   <!-- Horizontal line -->
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-510" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-425" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-340" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-255" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-170" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-85" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="0" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="85" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="170" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="255" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="340" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="425" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="510" y="345"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="345"></rect>
+    
+   <!-- Vertical line -->
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="305"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="265"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="225"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="185"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="145"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="105"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="65"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="25"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-15"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-55"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-95"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-135"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-175"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-215"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-255"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-295"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-595" y="-335"></rect>
+
+    <!-- Horizontal line -->
+    <rect fillcolor="#0c2461" width="80" height="35" x="-510" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-425" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-340" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-255" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-170" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="-85" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="0" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="85" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="170" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="255" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="340" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="425" y="-335"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="510" y="-335"></rect>
+    
+   <!-- Vertical line -->
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="305"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="265"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="225"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="185"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="145"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="105"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="65"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="25"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-15"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-55"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-95"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-135"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-175"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-215"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-255"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-295"></rect>
+    <rect fillcolor="#0c2461" width="80" height="35" x="595" y="-335"></rect>
+
+    <!-- Artemis -->
+      <!-- A -->
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-330" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-345" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-350" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-360" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-370" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-230" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-315" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-310" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-330" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-300" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-290" y="172"></rect>
+      <!-- R -->
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-230" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-230" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-230" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-230" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-230" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-205" y="244"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-185" y="225"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-205" y="206"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-190" y="189"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="-175" y="172"></rect>
+      <!-- T -->
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-120" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-95" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-95" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-95" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-95" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-95" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-70" y="248"></rect>
+      <!-- E -->
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-20" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="5" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="30" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-20" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-20" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-20" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="-20" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="5" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="30" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="5" y="210"></rect>
+      <!-- M -->
+        <rect fillcolor="#48dbfb" width="20" height="15" x="80" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="80" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="80" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="80" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="80" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="100" y="238"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="120" y="222"></rect>
+        <rect fillcolor="#48dbfb" width="15" height="15" x="140" y="238"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="160" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="160" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="160" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="160" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="160" y="172"></rect>
+      <!-- I -->
+        <rect fillcolor="#48dbfb" width="20" height="15" x="210" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="210" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="210" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="210" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="210" y="248"></rect>
+       <!-- S -->
+        <rect fillcolor="#48dbfb" width="20" height="15" x="260" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="285" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="310" y="248"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="260" y="229"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="260" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="285" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="310" y="210"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="310" y="191"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="310" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="285" y="172"></rect>
+        <rect fillcolor="#48dbfb" width="20" height="15" x="260" y="172"></rect>
+
+      <!-- Drawing -->
+      <figure> 
+        <!-- Small circle -->
+        <ellipse fillcolor="#ff7f50" rx="20" ry="20" x="-533" y="0"></ellipse>
+        <!-- Pipe -->
+        <rect fillcolor="#ff7f50" width="15" height="260" x="-520" y="-150"></rect>
+        <!-- Circle -->
+        <ellipse fillcolor="#ff7f50" rx="20" ry="20" x="-533" y="-300"></ellipse>
+        <ellipse fillcolor="#ff7f50" rx="40" ry="40" x="-470" y="-280"></ellipse>
+        <!-- Zigzag path -->
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-250" y="-250"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-270" y="-269"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-290" y="-288"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-310" y="-307"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-335" y="-307"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-355" y="-288"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-375" y="-269"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-395" y="-250"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-415" y="-269"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="-435" y="-288"></rect>
+        <!-- Boxes -->
+        <rect fillcolor="#ff7f50" width="160" height="70" x="-160" y="-280"></rect>
+        <rect fillcolor="#ff7f50" width="220" height="70" x="0" y="-204"></rect>
+        <rect fillcolor="#ff7f50" width="160" height="70" x="160" y="-280"></rect>
+        <!-- Zigzag path -->
+        <rect fillcolor="#ff7f50" width="20" height="15" x="250" y="-250"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="270" y="-269"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="290" y="-288"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="310" y="-307"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="335" y="-307"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="355" y="-288"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="375" y="-269"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="395" y="-250"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="415" y="-269"></rect>
+        <rect fillcolor="#ff7f50" width="20" height="15" x="435" y="-288"></rect>
+        <!-- Circle -->
+        <ellipse fillcolor="#ff7f50" rx="20" ry="20" x="533" y="-300"></ellipse>
+        <ellipse fillcolor="#ff7f50" rx="40" ry="40" x="470" y="-280"></ellipse>
+        <!-- Pipe -->
+        <rect fillcolor="#ff7f50" width="15" height="260" x="520" y="-150"></rect>
+        <!-- Small circle -->
+        <ellipse fillcolor="#ff7f50" rx="20" ry="20" x="533" y="0"></ellipse>
+        <!-- Platform -->
+        <ellipse id="ballb" fillcolor="#000000" rx="0" ry="0" x="50" y="-290"></ellipse>
+        <ellipse id="ball" fillcolor="#87ceeb" rx="10" ry="10" x="0" y="-290"></ellipse>
+        <rect id="platform" fillcolor="#2980b9" width="150" height="15" x="0" y="-310"></rect>
+      </figure>
+
+  </figure>
+  
+</root>

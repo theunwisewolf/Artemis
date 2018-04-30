@@ -98,6 +98,7 @@ public:
 	void Close();
 
 	bool ShouldClose() const;
+	void ShouldClose(bool value) { glfwSetWindowShouldClose(m_Window, value); }
 
 	~Window();
 };

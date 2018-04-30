@@ -39,6 +39,7 @@ private:
 	std::string m_Syntax;
 	std::stack<Tag*> m_Tags;
 	std::vector<Tag*> m_Primitives;
+	std::vector<Tag*> m_Figures;
 	
 	bool parseOpeningTag();
 	bool parseClosingTag();
@@ -62,6 +63,9 @@ public:
 	Tag* InitTag(std::string name);
 
 	std::string getErrorMessage() const;
+
+	// Cleans resources used by the parser
+	void clean();
 };
 
 }

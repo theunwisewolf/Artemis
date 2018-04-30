@@ -147,10 +147,10 @@
 	<!-- Platform -->
     <figure>
       <ellipse id="ballb" fillcolor="#000000" rx="0" ry="0" x="0" y="-300"></ellipse>
-      <ellipse id="ball" fillcolor="#87ceeb" rx="20" ry="20" x="0" y="-310"></ellipse>
+      <ellipse id="ball" fillcolor="#87ceeb" rx="10" ry="10" x="0" y="-310"></ellipse>
 
       <!--<rect id="ball" fillcolor="#3498db" width="20" height="20"  x="0" y="-306"></rect>-->
-      <rect id="platform" fillcolor="#2980b9" width="300" height="10" x="0" y="-326"></rect>
+      <rect id="platform" fillcolor="#e74c3c" width="200" height="10" x="0" y="-326"></rect>
     </figure>
 
   </figure>

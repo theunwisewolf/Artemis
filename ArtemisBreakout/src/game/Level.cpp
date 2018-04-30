@@ -10,6 +10,7 @@ Level::Level(const std::string& level, Window* window, const std::string& gameDa
 	m_Ball(nullptr),
 	m_BallB(nullptr),
 	BALL_VELOCITY(100.0f, 300.0f, 0.0f),
+	PLATFORM_VELOCITY(100.0f, 300.0f, 0.0f),
 	m_BlocksDestroyed(0)
 {
 	std::string levelPath = gameDataPath + std::string( LEVEL_PATH ) + level;
@@ -44,7 +45,7 @@ Level::Level(const std::string& level, Window* window, const std::string& gameDa
 	m_ShaderProgram.Use();
 
 	// Camera position
-	m_ShaderProgram.SetUniform2f("input_position", 0.0f, 0.0f);
+	//m_ShaderProgram.SetUniform2f("input_position", 0.0f, 0.0f);
 
 	// Set the Camera Projection Matrix
 	glm::mat4 prMatrix = glm::ortho(-window->Width() / 2.0f, window->Width() / 2.0f, -window->Height() / 2.0f, window->Height() / 2.0f, -1.0f, 1.0f);
@@ -56,7 +57,7 @@ Level::Level(const std::string& level, Window* window, const std::string& gameDa
 	m_EllipseShaderProgram.Use();
 
 	// Camera position
-	m_EllipseShaderProgram.SetUniform2f("input_position", 0.0f, 0.0f);
+	//m_EllipseShaderProgram.SetUniform2f("input_position", 0.0f, 0.0f);
 
 	// Set the Camera Projection Matrix
 	m_EllipseShaderProgram.SetMatrix4f("pr_matrix", &prMatrix[0][0]);
@@ -91,9 +92,12 @@ bool Level::Load()
 		return false;
 	}
 
+	m_Parser.clean();
 	m_Parser.setSyntax(m_Data);
 	if (m_Parser.Parse() == false)
 	{
+		failed = true;
+
 		std::cout << "Failed to parse " << m_Level << std::endl;
 		return false;
 	}
@@ -116,7 +120,8 @@ bool Level::Load()
 				m_Platform = new PlatformObject(
 					glm::vec3(rect->x, rect->y, 0.0f),
 					glm::vec2(rect->width, rect->height),
-					rect->color
+					rect->color,
+					PLATFORM_VELOCITY
 				);
 
 				m_GameObjects.push_back((GameObject*)m_Platform);
@@ -146,17 +151,6 @@ bool Level::Load()
 			if (m_Primitives[i]->id == "ball")
 			{
 				m_Ball = new BallObject(
-					glm::vec3(ellipse->x, ellipse->y, 0.0f),
-					ellipse->color,
-					glm::vec2(m_Window->Width(), m_Window->Height()),
-					ellipse->rx,
-					BALL_VELOCITY
-				);
-			}
-
-			else if (m_Primitives[i]->id == "ballb")
-			{
-				m_BallB = new BallObject(
 					glm::vec3(ellipse->x, ellipse->y, 0.0f),
 					ellipse->color,
 					glm::vec2(m_Window->Width(), m_Window->Height()),
@@ -199,15 +193,6 @@ void Level::Render()
 
 				ellipse->rx = m_Ball->Radius();
 				ellipse->ry = m_Ball->Radius();
-			}
-
-			if (ellipse->id == "ballb")
-			{
-				ellipse->x = m_BallB->Position().x;
-				ellipse->y = m_BallB->Position().y;
-
-				ellipse->rx = m_BallB->Radius();
-				ellipse->ry = m_BallB->Radius();
 			}
 
 			for (int i = 0; i < ellipse->vertices.size(); i++)
@@ -358,7 +343,7 @@ void Level::CheckCollisions(float deltaTime)
 	}
 }
 
-Level::~Level()
+void Level::Unload()
 {
 	for (int i = 0; i < m_GameObjects.size(); i++)
 	{
@@ -366,7 +351,13 @@ Level::~Level()
 		m_GameObjects[i] = nullptr;
 	}
 
+	m_Primitives.clear();
 	m_GameObjects.clear();
+}
+
+Level::~Level()
+{
+	this->Unload();
 }
 
 }
