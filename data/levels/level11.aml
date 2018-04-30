@@ -1,0 +1,176 @@
+<!-- 
+  Atari Breakouts Game
+  (c) 2018, Artemis
+-->
+<root>
+	<figure>
+		<!-- Level 11 -->
+
+    <!-- Coffee mug-->
+    
+    <!-- Vapors -->
+		<rect fillcolor="#AA1923" width="20" height="15" x="-500" y="270"></rect>
+    <rect fillcolor="#AA1923" width="20" height="15" x="-466" y="340"></rect>
+		<rect fillcolor="#AA1923" width="20" height="15" x="-434" y="256"></rect>
+    <rect fillcolor="#AA1923" width="20" height="15" x="-400" y="320"></rect>
+		<rect fillcolor="#AA1923" width="20" height="15" x="-368" y="275"></rect>
+		<rect fillcolor="#AA1923" width="20" height="15" x="-302" y="267"></rect>
+    <rect fillcolor="#AA1923" width="20" height="15" x="-340" y="340"></rect>
+    
+    <!-- Horizontal line -->
+		<rect fillcolor="#777777" width="30" height="15" x="-533" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-500" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-467" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-434" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-401" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-368" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-335" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-302" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-269" y="235"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-236" y="235"></rect>
+
+    <!-- Vertical line -->
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="218"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="200"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="182"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="164"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="146"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="128"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="110"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="92"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="74"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="56"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="38"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="20"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="2"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="-16"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-542" y="-34"></rect>
+
+    <!-- Horizontal line -->
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="218"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="200"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="182"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="164"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="146"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="128"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="110"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="92"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="74"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="56"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="38"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="20"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="2"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="-16"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-223" y="-34"></rect>
+
+    <!-- Vertical line -->
+		<rect fillcolor="#777777" width="30" height="15" x="-533" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-500" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-467" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-434" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-401" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-368" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-335" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-302" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-269" y="-51"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-236" y="-51"></rect>
+
+    <!-- Horizontal line for handle -->
+		<rect fillcolor="#777777" width="30" height="15" x="-190" y="164"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-157" y="164"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-124" y="164"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-91" y="164"></rect>
+
+    <!-- Vertical line for handle-->
+		<rect fillcolor="#777777" width="30" height="15" x="-86" y="146"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-86" y="128"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-86" y="110"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-86" y="92"></rect>
+
+    <!-- Horizontal line for handle-->
+		<rect fillcolor="#777777" width="30" height="15" x="-190" y="74"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-157" y="74"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-124" y="74"></rect>
+		<rect fillcolor="#777777" width="30" height="15" x="-91" y="74"></rect>
+    
+    <!-- Alphabet-->
+
+    <!-- C -->
+    <rect fillcolor="#ffff00" width="20" height="15" x="85" y="267"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="110" y="267"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="135" y="267"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="85" y="248"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="85" y="229"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="85" y="210"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="85" y="191"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="110" y="191"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="135" y="191"></rect>
+
+    <!-- O -->
+    <rect fillcolor="#ffff00" width="20" height="15" x="135" y="165"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="160" y="165"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="115" y="146"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="115" y="127"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="115" y="108"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="135" y="89"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="160" y="89"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="180" y="146"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="180" y="127"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="180" y="108"></rect>
+
+    <!-- F -->
+    <rect fillcolor="#ffff00" width="20" height="15" x="180" y="66"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="205" y="66"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="230" y="66"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="180" y="47"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="180" y="28"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="180" y="9"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="180" y="-10"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="205" y="28"></rect>
+    
+    <!--F-->
+    <rect fillcolor="#ffff00" width="20" height="15" x="245" y="-33"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="270" y="-33"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="295" y="-33"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="245" y="-52"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="245" y="-71"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="245" y="-90"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="245" y="-109"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="270" y="-71"></rect>
+    
+    <!-- E -->
+    <rect fillcolor="#ffff00" width="20" height="15" x="310" y="-132"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="335" y="-132"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="360" y="-132"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="310" y="-151"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="310" y="-170"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="310" y="-189"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="310" y="-208"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="335" y="-208"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="360" y="-208"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="335" y="-170"></rect>
+    
+    <!-- E -->
+    <rect fillcolor="#ffff00" width="20" height="15" x="380" y="-234"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="405" y="-234"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="430" y="-234"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="380" y="-253"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="380" y="-272"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="380" y="-291"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="380" y="-310"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="405" y="-310"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="430" y="-310"></rect>
+    <rect fillcolor="#ffff00" width="20" height="15" x="405" y="-272"></rect>
+    
+    <!-- Platform -->
+    <figure>
+      <ellipse id="ballb" fillcolor="#000000" rx="0" ry="0" x="0" y="-300"></ellipse>
+      <ellipse id="ball" fillcolor="#87ceeb" rx="20" ry="20" x="0" y="-310"></ellipse>
+
+      <!--<rect id="ball" fillcolor="#3498db" width="20" height="20"  x="0" y="-306"></rect>-->
+      <rect id="platform" fillcolor="#2980b9" width="300" height="10" x="0" y="-326"></rect>
+    </figure>
+
+	</figure>
+</root>
+

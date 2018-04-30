@@ -1,0 +1,133 @@
+<!-- 
+  Atari Breakouts Game
+  (c) 2018, Artemis
+-->
+<root>
+  <figure>
+    <!-- Level 9 -->
+
+	<!-- First square box -->
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-430" y="290"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-345" y="290"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-260" y="290"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-175" y="290"></rect>
+
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-430" y="250"></rect>
+     <rect fillcolor="#777777" width="80" height="35" x="-430" y="210"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-430" y="170"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-430" y="130"></rect>
+
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-345" y="130"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-260" y="130"></rect>
+	 <rect fillcolor="#777777" width="80" height="35" x="-175" y="130"></rect>
+
+     <rect fillcolor="#ff0000" width="80" height="35" x="-175" y="170"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-175" y="210"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-175" y="250"></rect>
+
+	 <!-- Center -->
+	 <rect fillcolor="#AA1923" width="80" height="35" x="-345" y="210"></rect>
+	 <rect fillcolor="#AA1923" width="80" height="35" x="-260" y="210"></rect>
+
+	<!-- Second square box -->
+	 <rect fillcolor="#ff0000" width="80" height="35" x="175" y="290"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="260" y="290"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="345" y="290"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="430" y="290"></rect>
+
+	 <rect fillcolor="#ff0000" width="80" height="35" x="175" y="250"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="175" y="210"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="175" y="170"></rect>
+     <rect fillcolor="#777777" width="80" height="35" x="175" y="130"></rect>
+
+	 <rect fillcolor="#ff0000" width="80" height="35" x="260" y="130"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="345" y="130"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="430" y="130"></rect>
+
+     <rect fillcolor="#ff0000" width="80" height="35" x="430" y="170"></rect>
+     <rect fillcolor="#777777" width="80" height="35" x="430" y="210"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="430" y="250"></rect>
+
+	 <!-- Center -->
+	 <rect fillcolor="#AA1923" width="80" height="35" x="260" y="210"></rect>
+	 <rect fillcolor="#AA1923" width="80" height="35" x="345" y="210"></rect>
+
+	<!-- Third square box -->
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-430" y="10"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-345" y="10"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-260" y="10"></rect>
+     <rect fillcolor="#777777" width="80" height="35" x="-175" y="10"></rect>
+
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-430" y="-30"></rect>
+     <rect fillcolor="#777777" width="80" height="35" x="-430" y="-70"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-430" y="-110"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-430" y="-150"></rect>
+
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-345" y="-150"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-260" y="-150"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-175" y="-150"></rect>
+
+     <rect fillcolor="#ff0000" width="80" height="35" x="-175" y="-110"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="-175" y="-70"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="-175" y="-30"></rect>
+
+	 <!-- Center -->
+	 <rect fillcolor="#AA1923" width="80" height="35" x="-345" y="-70"></rect>
+	 <rect fillcolor="#AA1923" width="80" height="35" x="-260" y="-70"></rect>
+    
+	<!-- Fourth square box -->
+	 <rect fillcolor="#777777" width="80" height="35" x="175" y="10"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="260" y="10"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="345" y="10"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="430" y="10"></rect>
+
+	 <rect fillcolor="#ff0000" width="80" height="35" x="175" y="-30"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="175" y="-70"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="175" y="-110"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="175" y="-150"></rect>
+
+	 <rect fillcolor="#ff0000" width="80" height="35" x="260" y="-150"></rect>
+     <rect fillcolor="#ff0000" width="80" height="35" x="345" y="-150"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="430" y="-150"></rect>
+
+     <rect fillcolor="#ff0000" width="80" height="35" x="430" y="-110"></rect>
+     <rect fillcolor="#777777" width="80" height="35" x="430" y="-70"></rect>
+	 <rect fillcolor="#ff0000" width="80" height="35" x="430" y="-30"></rect>
+    
+	 <!-- Center -->
+	 <rect fillcolor="#AA1923" width="80" height="35" x="260" y="-70"></rect>
+	 <rect fillcolor="#AA1923" width="80" height="35" x="345" y="-70"></rect>
+
+	 <!-- Center between boxes -->
+
+	 <!-- Horizontal line -->
+	 <rect fillcolor="#ffff00" width="80" height="35" x="-90" y="130"></rect>
+	 <rect fillcolor="#ffff00" width="85" height="35" x="0" y="170"></rect>
+	 <rect fillcolor="#ffff00" width="80" height="35" x="90" y="130"></rect>
+	 <rect fillcolor="#ffff00" width="85" height="35" x="0" y="90"></rect>
+
+	 <!-- Vertical line -->
+	 <rect fillcolor="#ffff00" width="80" height="35" x="-175" y="90"></rect>
+	 <rect fillcolor="#ffff00" width="80" height="35" x="-175" y="50"></rect>
+
+	 <!-- Vertical line --> 
+	 <rect fillcolor="#ffff00" width="80" height="35" x="175" y="90"></rect>
+	 <rect fillcolor="#ffff00" width="80" height="35" x="175" y="50"></rect>
+
+	 <!-- Horizontal line -->
+	 <rect fillcolor="#ffff00" width="80" height="35" x="-90" y="10"></rect>
+	 <rect fillcolor="#ffff00" width="85" height="35" x="0" y="-30"></rect>
+	 <rect fillcolor="#ffff00" width="80" height="35" x="90" y="10"></rect>
+	 <rect fillcolor="#ffff00" width="85" height="35" x="0" y="50"></rect>
+
+	<!-- Platform -->
+    <figure>
+      <ellipse id="ballb" fillcolor="#000000" rx="0" ry="0" x="0" y="-300"></ellipse>
+      <ellipse id="ball" fillcolor="#87ceeb" rx="20" ry="20" x="0" y="-310"></ellipse>
+
+      <!--<rect id="ball" fillcolor="#3498db" width="20" height="20"  x="0" y="-306"></rect>-->
+      <rect id="platform" fillcolor="#2980b9" width="300" height="10" x="0" y="-326"></rect>
+    </figure>
+
+  </figure>
+</root>

@@ -1,0 +1,111 @@
+<!-- 
+  Atari Breakouts Game
+  (c) 2018, Artemis
+-->
+<root>
+  <figure>
+    <!-- Level 5 -->
+    
+    <!-- First horizontal line-->
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-85" y="335"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="0" y="335"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="85" y="335"></rect>
+    
+    <!-- Second horizontal line-->
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-170" y="295"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-85" y="295"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="0" y="295"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="85" y="295"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="170" y="295"></rect>
+    
+    <!-- Third horizontal line-->
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-260" y="255"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-170" y="255"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-85" y="255"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="0" y="255"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="85" y="255"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="170" y="255"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="260" y="255"></rect>
+    
+    <!-- Fourth horizontal line-->
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-260" y="215"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-170" y="215"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-85" y="215"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="0" y="215"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="85" y="215"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="170" y="215"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="260" y="215"></rect>
+    
+    <!-- Fifth horizontal line-->
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-260" y="175"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-170" y="175"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-85" y="175"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="0" y="175"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="85" y="175"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="170" y="175"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="260" y="175"></rect>
+    
+    <!-- Sixth horizontal line-->
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-260" y="135"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-170" y="135"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-85" y="135"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="0" y="135"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="85" y="135"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="170" y="135"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="260" y="135"></rect>
+    
+    <!-- Seventh horizontal line-->
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-260" y="95"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-170" y="95"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="0" y="95"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="170" y="95"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="260" y="95"></rect>
+    
+    <!-- Eighth horizontal line-->
+		<rect fillcolor="#7CFC00" width="80" height="35" x="-260" y="55"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-170" y="55"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="0" y="55"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="170" y="55"></rect>
+		<rect fillcolor="#7CFC00" width="80" height="35" x="260" y="55"></rect>
+    
+    <!-- Nineth horizontal line-->
+		<rect fillcolor="#ffff00" width="80" height="35" x="-170" y="15"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-85" y="15"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="0" y="15"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="85" y="15"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="170" y="15"></rect>
+    
+    <!-- Tenth horizontal line-->
+		<rect fillcolor="#ff0000" width="80" height="35" x="-170" y="-25"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="-85" y="-25"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="0" y="-25"></rect>
+		<rect fillcolor="#ffff00" width="80" height="35" x="85" y="-25"></rect>
+		<rect fillcolor="#ff0000" width="80" height="35" x="170" y="-25"></rect>
+    
+    <!-- Eleventh horizontal line-->
+		<rect fillcolor="#ff0000" width="80" height="35" x="-170" y="-65"></rect>
+		<rect fillcolor="#ff0000" width="80" height="35" x="170" y="-65"></rect>
+    
+    <!-- Twelve horizontal line-->
+		<rect fillcolor="#ff0000" width="80" height="35" x="-85" y="-105"></rect>
+		<rect fillcolor="#ff0000" width="80" height="35" x="0" y="-105"></rect>
+		<rect fillcolor="#ff0000" width="80" height="35" x="85" y="-105"></rect>
+    
+    <!-- Thirteenth horizontal line-->
+		<rect fillcolor="#777777" width="80" height="35" x="-170" y="-145"></rect>
+		<rect fillcolor="#777777" width="80" height="35" x="-85" y="-145"></rect>
+		<rect fillcolor="#777777" width="80" height="35" x="0" y="-145"></rect>
+		<rect fillcolor="#777777" width="80" height="35" x="85" y="-145"></rect>
+		<rect fillcolor="#777777" width="80" height="35" x="170" y="-145"></rect>
+
+	  <!-- Platform -->
+    <figure>
+      <ellipse id="ballb" fillcolor="#000000" rx="0" ry="0" x="0" y="-300"></ellipse>
+      <ellipse id="ball" fillcolor="#87ceeb" rx="20" ry="20" x="0" y="-310"></ellipse>
+
+      <!--<rect id="ball" fillcolor="#3498db" width="20" height="20"  x="0" y="-306"></rect>-->
+      <rect id="platform" fillcolor="#2980b9" width="300" height="10" x="0" y="-326"></rect>
+    </figure>
+
+ </figure>
+</root>
